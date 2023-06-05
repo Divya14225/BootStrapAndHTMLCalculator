@@ -1,0 +1,31 @@
+p{
+    margin: inherit;
+    border-style: dotted;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 50px;
+    width: 50px;
+    font-family: 'Roboto',sans-serif;
+   
+}
+p:hover{
+    color: aliceblue;
+    background-color: black;
+}
+.flexbox > div{
+    padding: 30px;
+    border:10px solid black;
+    width:50px;
+    margin: 20px;
+    color:blueviolet;
+    background-color: aliceblue;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
